@@ -1,0 +1,19 @@
+.container {
+  width: auto;
+  height: auto;
+  background-color: blue;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding: 0;
+}
+#s {
+  background-color: crimson;
+}
+#a {
+  background-color: chartreuse;
+}
+#f {
+  background-color: brown;
+  grid-row: span 2;
+}
